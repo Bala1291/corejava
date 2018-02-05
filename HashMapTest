@@ -1,0 +1,18 @@
+import java.util.*;public class Test{
+
+     public static void main(String []args){  
+     //System.out.println("Hello World");  
+     HashMap hm= new HashMap();  
+     hm.put(1,"a");       
+     hm.put(1,"b");     
+     hm.put(null,"c");   
+     System.out.println( hm.get(null));  
+     System.out.println(hm.size());   
+     System.out.println(hm);    
+     }
+     }
+     
+        o/p:                                                                                       
+        c
+        2
+        {null=c, 1=b}
