@@ -16,3 +16,20 @@ public class Test{
      
      o/p:
      no exception compiles fine
+public class Test{
+
+     public static void main(String []args){ 
+     Test t =new Test();  
+     t.m1();   
+     }       
+     public void m1(){
+     
+     try{      
+     throw new NullPointerException();  
+     }              
+     catch(Exception e){    
+     }        catch(NullPointerException ne){       
+     }   
+     }
+     }
+     o/p: We will get "Excpetion already been caught "
