@@ -1,0 +1,40 @@
+Based on our requirement, we can override to provide our own String representation.
+
+for ex:
+
+whenever we are trying to print student object reference to print his name and roll number we have to override toString() as follows.
+
+public String toString{
+
+return name+"...+rollno;
+//return "this is studet name"+name "and roll no" +rollno;
+
+} 
+In all wrapper classes , all collection classes string class, string buffer classes, string builder classes, toString()
+ is overridden for meaningful string representation hence its highly recommended to override toString() method 
+ in our class also.
+
+
+class Test
+{
+	public String toString
+	{
+		return "test";
+	}
+	public static void main(String[] args)
+	{
+		String s = new String("Bala");
+		System.out.println(s);
+		Integer I = new Integer(10);
+		ArrayListlist al= new ArrayList();
+		al.add("A");
+		al.add("B");
+		System.out.println(al);
+		
+		Test t =new Test();
+		System.out.println(t);
+	}
+	}
+		
+		
+
