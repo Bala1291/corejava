@@ -1,0 +1,26 @@
+
+//toString() demo
+class Student
+{
+
+String name;
+int rollno;
+
+Student(String name,int rollno)
+{
+this.name=name;
+this.rollno=rollno;
+}
+publioc static void main(String[] args)
+{
+
+Student s1= new Student();
+Student s2= new Student();
+
+System.out.println(s1);//Student@1888759
+System.out.println(s1.toString());//Student@1888759
+System.out.println(s2);//Student@6e14708
+
+}
+}
+//Conclusion:whenever we are trying to print any object reference internally System.out.println(s1) calls toString() of Object class .
