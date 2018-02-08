@@ -1,0 +1,16 @@
+Interface i1
+{
+int a=1;
+}
+interface i2
+{
+int a=2;
+}
+class Test implements i1,i2
+{
+
+public static void main( String[] args){
+System.out.println(a);//ambiguous problem occurs
+
+}
+}
