@@ -1,4 +1,4 @@
-package com.prasanna;
+
 
 //calling one constructor to another constructor
 //we are using this()
@@ -22,6 +22,6 @@ B(String s)
  public class Treeeeee
  {
 	public static void main(String[] args) {
-		B b=new B("prasanna");
+		B b=new B("balu");
 	}
 }
