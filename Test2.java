@@ -1,29 +1,22 @@
 package com.prasanna;
-
-import java.io.IOException;
-
-class S
-{
-	void m1() throws IOException
-	{
-	System.out.println("parent");
-	}
-}
-	class B extends S
-	{
-		void m1() throws ArithmeticException,NullPointerException
-		{System.out.println("child");
-	}
-	}
-	
+//based on key sorting order
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+import java.util.SortedSet;
 public class Test2 {
-public static void main(String[] args) throws Exception {
-	//S s=new S();//it will print parent
-	B b=new B();
-	//B b=new S();//COMPILE TIME ERROR
-	//S s=new B();//child it will come output.
-	b.m1();
+	public static void main(String[] args) {
+		Map m=new HashMap();
+		m.put("sachin",20);
+		m.put("gangoli",30);
+		m.put("pras",40);
+		Set s=m.keySet();
+		Iterator itr=s.iterator();
+		while(itr.hasNext())
+		{
+			Object obj=(Object)itr.next();
+			System.out.println(obj);
+		}
+	}
 }
-	
-}
-
