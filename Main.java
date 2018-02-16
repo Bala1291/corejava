@@ -1,24 +1,23 @@
-
-
 package com.prasanna;
- class Employee
- {
-	 int id;
-	 public void setid(int id)
-	 {
-		 this.id=id;
-	 }
-	 public int getid(int id)
-	 {
-		 return id;
-	 }
- }
-
-public class Main {
-	public static void main(String[] args) {
-		Employee e=new Employee();
-		e.setid(10);
-		System.out.println(e.getid(10));
-		
+class A
+{
+	void m1()
+	{
+		System.out.println("from this method");
 	}
+	void m2(int a)
+	{
+		System.out.println("from second");
+	}
+	void m3(int a,int b,int c)
+	{System.out.println("from third");
+}
+}
+public class Main {
+public static void main(String[] args) {
+	A a=new A();
+	a.m2(5);//FROM SECOND
+	a.m1();//from this method
+	
+}
 }

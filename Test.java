@@ -1,14 +1,26 @@
-
-package com.prasanna;
-
+/*package com.prasanna;
+ class C
+{
+	void m3(Integer i)
+	{
+		System.out.println("m1 print");
+	}
+	class D extends C
+	{
+		void m3(int... i)
+		{
+			
+		System.out.println("m2 print");
+	}
+}
+}
 public class Test {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		C c =new D();
+		c.m3();
+		
 
 	}
 
 }
+*/
