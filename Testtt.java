@@ -1,23 +1,26 @@
 package com.prasanna;
-class Father
+class Person
 {
-	float property=4000;
-	String homeneme="prasanna nilayam";
+	int id;
+	String name;
 	void m1()
 	{
-		System.out.println(property);
-		System.out.println("homename");
+	id=11;
+	name="ddd";
+	}
+	void m2()
+	{
+		System.out.println(id);
+		System.out.println(name);
+		
 	}
 }
-class Son extends Father
-{
-	
-}
-
 public class Testtt {
 	public static void main(String[] args) {
-		Son c=new Son();
-		c.m1();
+		Person p=new Person();
+		p.m1();
+		p.m2();
 	}
+	
 
 }
