@@ -1,19 +1,23 @@
-package com.prasanna;
+package com.pra;
 
-public class Test1 {
-	public static void main(String[] args) {
-		String s1=new String("prasanna");
-		String s2=new String("prasanna");
-		if(s1==s2)
-		{
-			System.out.println("1");
-		}
-		else
-		{
-			System.out.println("2");
-		}
-		
+
+class A
+{
+ A(float f,int b) {
+	System.out.println("from b constructor");
+ }
+}
+class B extends A
+{
+	B()
+	{
+	super(50,10);
+	System.out.println("FROM C CONSTRICTOR");
 	}
 }
 
-
+public class Test1 {
+	public static void main(String[] args) {
+		A a=new B();
+	}
+	}

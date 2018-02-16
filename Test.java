@@ -1,26 +1,28 @@
 package com.prasanna;
-
-class A {
-	int b=20;
-	String ename;
-
-	void display() {
-		System.out.println(b);
-		System.out.println(ename);
-	}
-	void doget()
+class A
+{
+	A(int a)
 	{
-		b=10;
-		ename="prasanna";
+		System.out.println("from A constructor");
+	}
+	void m1()
+	{
+		System.out.println("from m1");
 	}
 }
+	class B extends A
+	{
+		B()
+		{
+		super(7);
+	}
+	}
 
 public class Test {
-
 	public static void main(String[] args) {
-		A a = new A();
-		a.display();
-
+		A a=new B();
+		a.m1();
+	}
 	}
 
-}
+
