@@ -1,4 +1,4 @@
-package com.pras;
+
 
 public interface M {
 	
