@@ -1,26 +1,26 @@
-/*package com.prasanna;
- class C
-{
-	void m3(Integer i)
-	{
-		System.out.println("m1 print");
+package com.prasanna;
+
+class A {
+	int b=20;
+	String ename;
+
+	void display() {
+		System.out.println(b);
+		System.out.println(ename);
 	}
-	class D extends C
+	void doget()
 	{
-		void m3(int... i)
-		{
-			
-		System.out.println("m2 print");
+		b=10;
+		ename="prasanna";
 	}
 }
-}
+
 public class Test {
+
 	public static void main(String[] args) {
-		C c =new D();
-		c.m3();
-		
+		A a = new A();
+		a.display();
 
 	}
 
 }
-*/
