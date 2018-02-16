@@ -1,4 +1,4 @@
-package com.prasanna;
+
 class AB
 {
 	//instance variable
