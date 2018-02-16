@@ -7,9 +7,9 @@ public class ArryListDemo {
 		ArrayList al=new ArrayList();
 		al.add(null);
 		al.add(null);
-		al.add("prasanna");
+		al.add("bala");
 		al.add(1);
-		al.add("prasnna");
+		al.add("k");
 		//al.clear();
 		System.out.println(al);
 		
