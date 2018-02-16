@@ -1,4 +1,4 @@
-package com.prasanna;
+
 
 class Table{  
 	 synchronized void printTable(int n){//synchronized method  
