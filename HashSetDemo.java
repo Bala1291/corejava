@@ -8,8 +8,8 @@ public class HashSetDemo {
 		h.add(null);
 		h.add(null);//doesnot allow null values
 		h.add(1);
-		h.add("prasa");
-		h.add("prasa");//doesnot allow duplicates
+		h.add("balu");
+		h.add("prasad");//doesnot allow duplicates
 		h.add("bindu");
 		h.add("swamy");
 		h.add("goud");
