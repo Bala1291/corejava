@@ -4,10 +4,10 @@ import java.util.Hashtable;
 public class HashTableDemo {
 public static void main(String[] args) {
 Hashtable<Integer,String> hm=new Hashtable<Integer,String>();  
-		hm.put(100,"prasanna");  
+		hm.put(100,"bala");  
 		hm.put(102,"java");  
-		hm.put(101,"laxmi");  
-		hm.put(103,"sampada");  
+		hm.put(101,"k");  
+		hm.put(103,"amma");  
 	System.out.println(hm);
 	}
 
