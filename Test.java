@@ -1,28 +1,25 @@
-package com.prasanna;
-class A
-{
-	A(int a)
-	{
-		System.out.println("from A constructor");
-	}
-	void m1()
-	{
-		System.out.println("from m1");
-	}
-}
-	class B extends A
-	{
-		B()
-		{
-		super(7);
-	}
-	}
+package com.pra;
 
 public class Test {
-	public static void main(String[] args) {
-		A a=new B();
-		a.m1();
+	    public static void main(String[] args)
+	    {
+	        System.out.println(methodReturningValue());    //Output : 50
+	    }
+	 
+	    static int methodReturningValue()
+	    {
+	        try
+	        {
+	            return 10;
+	        }
+	        catch (Exception e)
+	        {
+	            return 20;
+	        }
+	        finally
+	        {
+	            return 50;    //This method returns 50 not 10 or 20
+	        }
+	    }
 	}
-	}
-
-
+	
