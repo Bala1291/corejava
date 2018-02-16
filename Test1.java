@@ -1,21 +1,19 @@
 package com.prasanna;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+
 public class Test1 {
 	public static void main(String[] args) {
-		List l=new ArrayList();
-		l.add(10);
-		l.add(20);
-		l.add(30);
-		l.add(40);
-		System.out.println(l);//
-		Iterator itr=l.iterator();
-		while(itr.hasNext())
+		String s1=new String("prasanna");
+		String s2=new String("prasanna");
+		if(s1==s2)
 		{
-			int obj=(int)itr.next();
-			System.out.println(obj);
+			System.out.println("1");
 		}
+		else
+		{
+			System.out.println("2");
+		}
+		
 	}
-	
 }
+
+
