@@ -1,4 +1,3 @@
-package com.pra;
 
 import java.util.Scanner;
 
